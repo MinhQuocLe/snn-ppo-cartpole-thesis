@@ -1,0 +1,4 @@
+condition,dense_connection_evaluations_mean,continuous_input_macs_mean,spike_triggered_accumulations_mean,event_driven_total_estimate_mean,event_driven_total_estimate_std
+ANN,8896.0,8896.0,0.0,8896.0,
+Direct SNN,69824.0,4096.0,7775.431750000001,11871.43175,917.2070722245462
+Gaussian SNN,70977.0,15104.0,17375.6275,32479.627500000002,1943.6258705189052

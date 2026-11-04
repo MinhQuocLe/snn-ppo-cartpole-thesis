@@ -1,0 +1,87 @@
+{
+  "experiment": {
+    "ann_activation": "Tanh",
+    "ann_hidden_sizes": [
+      64,
+      64
+    ],
+    "batch_size": 64,
+    "clip_range": 0.2,
+    "device": "cpu",
+    "entropy_coefficient": 0.0,
+    "environment": "CartPole-v1",
+    "eval_frequency": 2500,
+    "final_eval_episodes": 50,
+    "gae_lambda": 0.95,
+    "gamma": 0.99,
+    "inference_timing_steps": 5000,
+    "inference_warmup_steps": 100,
+    "learning_rate": 0.0003,
+    "lif_beta": 0.9,
+    "lif_threshold": 0.5,
+    "max_gradient_norm": 0.5,
+    "models": [
+      "snn"
+    ],
+    "observation_scales": [
+      2.4,
+      3.0,
+      0.2095,
+      3.5
+    ],
+    "optimisation_epochs": 10,
+    "periodic_eval_episodes": 10,
+    "population_sigma": 0.5,
+    "population_size": 4,
+    "rollout_steps": 256,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "snn_hidden_sizes": [
+      64,
+      64
+    ],
+    "snn_input_encoding": "direct",
+    "snn_steps": 8,
+    "solved_reward": 475.0,
+    "surrogate_slope": 25.0,
+    "torch_threads": 1,
+    "total_timesteps": 50000,
+    "value_coefficient": 0.5
+  },
+  "runtime": {
+    "created_at": "2026-10-19T11:12:03.040907+10:00",
+    "gymnasium": "1.3.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+    "python": "3.13.6",
+    "snntorch": "0.9.4",
+    "stable_baselines3": "2.9.0a2",
+    "torch": "2.11.0+cpu",
+    "torch_cuda_available": false,
+    "torch_cuda_device": null,
+    "torch_cuda_version": null,
+    "torch_threads": 1
+  }
+}

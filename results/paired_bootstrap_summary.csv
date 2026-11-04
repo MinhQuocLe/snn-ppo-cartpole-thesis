@@ -1,0 +1,5 @@
+metric,paired_seeds,mean_snn_minus_ann,median_snn_minus_ann,bootstrap_95_ci_low,bootstrap_95_ci_high
+final_mean_reward,20,-52.97299999999999,-0.6800000000000068,-94.07497499999998,-18.082000000000008
+first_solved_timestep,20,8750.0,7500.0,2125.0,15625.0
+inference_latency_median_ms,20,2.3714325,2.37485,2.3645299375000004,2.3778175
+training_time_excluding_eval_seconds,20,311.6022953049804,311.42998224985786,311.06672103439877,312.2671006508764

@@ -1,0 +1,4 @@
+contrast,paired_seeds,mean_reward_difference,median_reward_difference,bootstrap_95_ci_low,bootstrap_95_ci_high,success_upper_only,success_lower_only,mcnemar_exact_p
+8 minus 4,20,15.493,0.06999999999999318,0.4345999999999998,35.588174999999985,4,1,0.375
+16 minus 8,20,-26.21,-1.3199999999999932,-54.871300000000005,-4.256975000000004,1,5,0.21875
+16 minus 4,20,-10.716999999999999,0.0,-44.339275,20.674174999999984,3,4,1.0

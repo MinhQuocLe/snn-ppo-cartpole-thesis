@@ -1,0 +1,33 @@
+[project]
+name = "snn-thesis"
+version = "0.1.0"
+description = "Controlled ANN-versus-SNN PPO comparison on CartPole-v1"
+authors = [
+    {name = "MinhQuocLe",email = "s4939494@student.uq.edu.au"}
+]
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "stable-baselines3[extra] (>=2.8.0,<3.0.0)",
+    "gymnasium[classic-control] (>=1.3.0,<2.0.0)",
+    "matplotlib (>=3.10.9,<4.0.0)",
+    "pandas (>=3.0.2,<4.0.0)",
+    "snntorch (>=0.9.4,<0.10.0)",
+    "torch (>=2.11.0,<3.0.0)",
+    "numpy (>=2.4.4,<3.0.0)"
+]
+
+[project.scripts]
+snn-run = "snn_thesis.experiment:main"
+snn-analyze = "snn_thesis.analysis:main"
+snn-spikes = "snn_thesis.spike_analysis:main"
+snn-timesteps = "snn_thesis.timestep_analysis:main"
+
+[tool.poetry]
+packages = [
+    { include = "snn_thesis", from = "src" },
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
